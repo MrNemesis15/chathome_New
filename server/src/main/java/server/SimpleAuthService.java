@@ -20,9 +20,9 @@ public class SimpleAuthService implements AuthService {
 
     public SimpleAuthService() {
         this.users = new ArrayList<>();
-        users.add(new UserData("qwe", "qwe", "qwe"));
-        users.add(new UserData("asd", "asd", "asd"));
-        users.add(new UserData("zxc", "zxc", "zxc"));
+        users.add(new UserData("123", "123", "123"));
+        users.add(new UserData("MrV", "123", "MrV"));
+        users.add(new UserData("WH", "123", "WH"));
         for (int i = 1; i < 10; i++) {
             users.add(new UserData("login" + i, "pass" + i, "nick" + i));
         }
